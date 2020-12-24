@@ -1,0 +1,25 @@
+.topbar {
+  backface-visibility: hidden;
+  background-color: #a327a1;    
+  left: 0;
+  padding: 25px;
+  height: 95px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar__logo {
+  display: inline-block;
+  height: 50px;
+}
+
+.topbar__logo svg {
+  height: 100%;
+}
